@@ -22,41 +22,26 @@
     position: relative;
 }
 
-.badge-online {
+.badge-notification-indicator {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: green;
     border: 2px solid white;
     bottom: 0;
     right: 0;
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .badge-online{
+      background-color: green;
   }
 
   .badge-busy {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
     background-color: red;
-    border: 2px solid white;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    top: 10px;
-    right: 10px;
   }
 
   .badge-offline {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
     background-color: gray;
-    border: 2px solid white;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    top: 10px;
-    right: 10px;
   }

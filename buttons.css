@@ -1,0 +1,80 @@
+@import url(colors.css);
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+button{
+    padding: 0.5rem;
+    border-radius: 5px;  
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.btn-icon{
+    border-radius: 50%;
+}
+
+/* link button */
+
+.btn-link a{
+text-decoration: none;
+color: var(--font-color-dark);
+}
+
+
+
+
+/* float action icon */
+
+.btn-float-icon-container{
+    position: relative;
+}
+
+.btn-float-icon{
+ position: absolute;
+ z-index: 999;
+ bottom: 20px;
+ right: 20px;
+ background-color: var(--complement-color);
+ box-shadow: 0 6px 5px gray;
+}
+
+.btn-float-icon:hover{
+    background-color: var(--btn-complement-hover);
+
+}
+
+/*buttons colors  */
+
+.btn-primary{
+    background-color:var(--primary-color) ;
+    color: var(--font-color-light);
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+}
+
+.btn-success{
+    background-color:var(--green-color) ;
+}
+
+.btn-danger{
+    background-color: var(--red-color);
+}
+
+.btn-primary:hover{
+background-color: var(--btn-primary-hover);
+}
+
+.btn-secondary:hover{
+    background-color: var(--btn-secondary-hover);
+}

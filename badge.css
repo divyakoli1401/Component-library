@@ -1,0 +1,47 @@
+@import url(avatar.css);
+
+
+.badge {
+    position: relative;
+    font-size: 0.79rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    background-color:red;
+
+}
+
+.badge-notification {
+    top: -10px;
+    left: -10px;
+    padding: 0.2rem 0.5rem;
+}
+
+.badge-avatar{
+    position: relative;
+}
+
+.badge-notification-indicator {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .badge-online{
+      background-color: green;
+  }
+
+  .badge-busy {
+    background-color: red;
+  }
+
+  .badge-offline {
+    background-color: gray;
+  }

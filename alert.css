@@ -1,0 +1,66 @@
+@import url(colors.css);
+@import url(typography.css);
+
+.alert-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.alert{
+    border: 1px solid;
+    padding-left: 1rem;
+    padding: 1rem;
+}
+
+.primary-alert{
+    border-color:var(--primary-color);
+    background-color: var(--alert-primary-color);
+}
+
+.secondary-alert{
+    border-color:var(--complement-color);
+    background-color: var(--alert-secondary-color);
+}
+
+.success-alert{
+    border-color:var(--green-color);
+    background-color: var( --alert-success-color);
+}
+
+.danger-alert{
+    border-color:var(--red-color);
+    background-color: var( --alert-danger-color);
+}
+
+.warning-alert{
+    border-color:var(--yellow-color);
+    background-color: var( --alert-warning-yellow);
+}
+
+.outline-primary{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.outline-secondary{
+    border-color: var(--complement-color);
+    color: var(--complement-color);
+}
+
+.outline-success{
+    border-color: var(--green-color);
+    color: var(--green-color);
+}
+
+.outline-danger{
+    border-color: var(--red-color);
+    color: var(--red-color);
+}
+
+.outline-warning{
+    border-color: var(--yellow-color);
+    color: var(--yellow-color);
+}

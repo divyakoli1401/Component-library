@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="badge.css" />
-    <title>Badges</title>
+    <link rel="stylesheet" href="input.css" />
+    <script src="index.js"></script>
+    <title>Inputs</title>
 </head>
+
 <body>
-    <h2>Badge on icons</h2>
-    <div class="badge-on-icon">
-        <i class="fas fa-home fa-2x"></i>
-        <span class="badge badge-notification">2</span>
-        <i class="fa fa-bell fa-2x"></i>
-        <span class="badge badge-notification">3</span>
-        <i class="fa fa-comment fa-2x"></i>
-        <span class="badge badge-notification">5</span>
-    </div>
-    <h2>Bagde on avatar</h2>
-    <div class="avatar-container">
-        <div  class="badge-avatar">
-            <img class="avatar avatar-large" src="./Images/avatar1.jpeg" alt="avatar"/>
-            <span class='badge-notification-indicator badge-online'></span>
+    <form>
+    <div class="input-container">
+        <h2>Input components</h2>
+            <label class="input-label" for="useremail"> Email Address:
+                <input required class="basic-input" type="email" placeholder="name@example.com" />
+            </label>
+       
+            <label class="input-label" for="userCheckbox"> Check the options
+                <input class="checkbox-input" type="checkbox" />
+            </label>
+              
+            <label class="input-label" for="userRadioOptions"> Choose the radio options
+                <input class="radiobtn-input" type="radio" />
+            </label>
+            <div class="form-group">
+              <label for="username" class="form-label form-input-required">Username</label>
+              <input type="text" class=" responsive-input username-input" placeholder="Enter username" minlength="5" required/>
+                <p class="error-msg"></p>
+            </div>
+            <div class="form-group">
+              <label for="password" class="form-label form-input-required">Password</label>
+              <input type="password" class="responsive-input password-input" placeholder="Enter password" minlength="8" required/>
+              
+            </div>
+            <div class="submit-btn">
+            <button class="btn-primary submit-btn" type="submit">
+              Submit
+            </button>
         </div>
-        <div class="badge-avatar">
-            <img class="avatar avatar-medium" src="./Images/avatar2.jpeg" alt="avatar"/>
-            <span class="badge-notification-indicator badge-busy"></span>
         </div>
-        <div class="badge-avatar">
-            <img class="avatar avatar-small" src="Images/avatar3.jpg" alt="avatar"/>
-            <span class="badge-notification-indicator badge-offline"></span>
+          </form>
+        <div class="image-container">
+            <h2>Image components</h2>
+            <div class="responsive-image-container">
+                <img class= responsive-image src="/images/responsive-image.jpg" alt="exampleimage" />
+            </div>
+            <div class="round-image-container">
+                <img class="round-image" src="/images/round-image.jpg" alt="exampleimage" />
+            </div>
+
         </div>
     </div>
 </body>
+
 </html>

@@ -3,7 +3,7 @@
 
 .badge {
     position: relative;
-    font-size: 0.79rem;
+    font-size: 0.80rem;
     border-radius: 2rem;
     color: white;
     font-weight: bold;
@@ -22,10 +22,24 @@
     position: relative;
 }
 
-.badge-notification-indicator {
+.badge-online {
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    background-color: green;
+    border: 2px solid white;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  .badge-busy {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
     border: 2px solid white;
     bottom: 0;
     right: 0;
@@ -34,14 +48,15 @@
     right: 10px;
   }
 
-  .badge-online{
-      background-color: green;
-  }
-
-  .badge-busy {
-    background-color: red;
-  }
-
   .badge-offline {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: gray;
+    border: 2px solid white;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
   }

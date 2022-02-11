@@ -1,0 +1,121 @@
+@import url(css/colors.css);
+@import url(css/buttons.css);
+@import url(css/typography.css);
+@import url(css/general.css);
+@import url(css/input.css);
+
+
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card-layout{
+display: flex;
+flex-direction: column;
+border: 0.1rem solid black;
+border-radius: 0.5rem;
+}
+
+/* card with text */
+
+.card-layout.text-card-container{
+width:20rem;
+padding: 2px 0;
+flex-wrap: wrap; 
+justify-content: center;
+align-items: center;
+background-color: var( --secondary-color);
+}
+
+/* card with shadow */
+
+.text-card-container.shadow-card-container{
+    box-shadow: 5px 10px var(--shadow-color);
+}
+
+/* card with dismiss */
+
+.card-layout.vertical-card-container{
+    width: 20rem;
+    height: 33rem;
+    position: relative;
+    background-color: var( --layout-color);
+}
+
+
+.vertical-card-container>.dismiss-icon-container{
+    position:absolute;
+    right:0;
+}
+
+.vertical-card-container>img{
+    width: 100%;
+    max-width: 20rem;
+    height: 15rem;
+  }
+
+/* cta buttons style */
+
+.cta-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* horizontal card */
+
+.horizontal-card-container{
+    display: flex;
+    flex-direction: row;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    width: 33rem;
+    height: 20rem;
+    background-color: var( --layout-color);
+}
+
+.horizontal-card-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-card-container>img{
+    width: 100%;
+    max-width: 20rem;
+    height: 19.8rem;
+}
+
+/* text overlay */
+.card-layout.textoverlay-card-container{
+    width: 20rem;
+    height: 30rem;
+    position: relative;
+    background-color: var( --layout-color);
+}
+
+.textoverlay-card-container>img{
+    width: 100%;
+    max-width: 20rem;
+    height: 15rem;
+  }
+
+.text-overlay{
+    position: absolute;
+    top:35%;
+}
+
+/* card with badge */
+.badge {
+    position: absolute;
+    font-size: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    background-color:red;
+    padding: 0.5rem;
+
+}

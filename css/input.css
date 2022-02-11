@@ -1,0 +1,78 @@
+@import url(/css/typography.css);
+@import url(/css/general.css);
+@import url(/css/colors.css);
+@import url(/css/buttons.css);
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* input label style */
+
+.input-label{
+    font-weight: 500;
+}
+
+input{
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+}
+
+.basic-input:focus{
+    background-color: var(--secondary-color);
+}
+
+.responsive-input:focus{
+    background-color: var(--secondary-color);
+}
+
+.responsive-input:valid{
+    background-color:rgb(186, 245, 127);
+    border-color: var(--green-color);
+}
+
+/* check box style */
+
+  .checkbox-input {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+
+  /* radio button style */
+  
+  .radiobtn-input {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+
+/* image style */
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.responsive-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .round-image{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }

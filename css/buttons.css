@@ -22,10 +22,12 @@ button:hover{
     border-radius: 50%;
 }
 
+
 .btn-dismiss-icon{
     background: none;
     border: none;
 }
+
 /* float action icon */
 
 .btn-float-icon-container{
@@ -35,8 +37,8 @@ button:hover{
 .btn-float-icon{
  position: absolute;
  z-index: 999;
- bottom: 20px;
- right: 20px;
+ bottom: 1.25 rems ;
+ right: 1.25 rems;
  background-color: var(--complement-color);
  box-shadow: 0 6px 5px gray;
 }

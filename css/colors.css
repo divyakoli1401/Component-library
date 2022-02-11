@@ -13,9 +13,10 @@
     --alert-primary-color:rgb(241, 157, 220);
     --alert-secondary-color:rgb(154, 218, 231);
     --alert-success-color:rgb(186, 245, 127);
-    --alert-danger-color:rgb(250, 114, 114);
+    --alert-danger-color:rgb(250, 112, 112);
     --alert-warning-yellow: rgb(248, 248, 143);
-    
+    --shadow-color: rgb(128, 128, 128);
+    --layout-color:rgba(199, 199, 199, 0.863);
 }
 
 
